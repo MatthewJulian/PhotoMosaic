@@ -27,6 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
+    <None Include="README.MD" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tile.hpp">
@@ -35,5 +36,13 @@
     <ClInclude Include="Utility.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MonaLisa.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MonaLisaEmoji.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

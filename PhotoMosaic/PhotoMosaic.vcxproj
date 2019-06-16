@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -138,10 +138,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
+    <None Include="README.MD" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tile.hpp" />
     <ClInclude Include="Utility.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MonaLisa.png" />
+    <Image Include="MonaLisaEmoji.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
