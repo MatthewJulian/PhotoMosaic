@@ -138,15 +138,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
-    <None Include="README.MD" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tile.hpp" />
     <ClInclude Include="Utility.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="MonaLisa.png" />
-    <Image Include="MonaLisaEmoji.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

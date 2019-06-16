@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhotoMosaic", "PhotoMosaic\PhotoMosaic.vcxproj", "{07F36FA4-3DA7-4632-9548-5B5C554D34A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E2A7B22-658D-453F-8EDD-14BDB7481E24}"
+	ProjectSection(SolutionItems) = preProject
+		MonaLisa.png = MonaLisa.png
+		MonaLisaEmoji.png = MonaLisaEmoji.png
+		README.MD = README.MD
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
